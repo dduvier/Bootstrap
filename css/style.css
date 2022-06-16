@@ -1,5 +1,6 @@
 .colorBody{
     background-color: pink;
+    height: 100% !important;
 }
 
 .colorNav{
@@ -11,7 +12,7 @@
     font-style: bold;
 }
 
-.footer{
+.footer1{
     width: 100%;
     position: absolute;
     bottom: 0vh;
