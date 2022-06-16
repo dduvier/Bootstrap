@@ -1,0 +1,34 @@
+.colorBody{
+    background-color: pink;
+}
+
+.colorNav{
+    background-color: #d63384;
+}
+
+.colorTextNav{
+    color: white;
+    font-style: bold;
+}
+
+.footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0vh;
+}
+
+.footer div div a{
+    text-decoration: none;
+}
+
+div img{
+    height: 180px;
+}
+
+.card{
+    background-color: #d63384;
+}
+
+.card-body{
+    color: white;
+}

@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap - Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="colorBody">
+
+    <!-- MENU -->
+    <nav class="navbar navbar-expand-lg colorNav">
+        <div class="container-fluid">
+          <a class="navbar-brand colorTextNav" href="index.html">Buy Hello Kitty</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link colorTextNav" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorTextNav" href="formulario.html">Contactanos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle colorTextNav" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Productos
+                </a>
+                <ul class="dropdown-menu colorNav" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item colorTextNav" href="#">Mochilas y carteras</a></li>
+                  <li><a class="dropdown-item colorTextNav" href="#">Indumentaria</a></li>
+                  <li><a class="dropdown-item colorTextNav" href="#">Accesorios</a></li>
+                  <li><a class="dropdown-item colorTextNav" href="#">Maquillaje</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link colorTextNav" href="#">Donde estamos</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Busca tu producto..." aria-label="Search">
+              <button class="btn btn-outline-success colorTextNav" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+
+        <!-- PRIMERA SECCION -->
+        <div class="container w-80 mt-5 d-flex justify-content-around">
+
+            <!-- PRODUCTO 1 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/item01.jpg" class="card-img-top" alt="Item numero uno">
+                <div class="card-body">
+                <h5 class="card-title">PRODUCTO 1</h5>
+                <p class="card-text">Produto 1 que sirve para muchas cosas</p>
+                <h6>$XXX.XX</h6>
+                <a href="#" class="btn btn-primary">Comprar!</a>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 2 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/item02.jpg" class="card-img-top" alt="Item numero dos">
+                <div class="card-body">
+                <h5 class="card-title">PRODUCTO 2</h5>
+                <p class="card-text">Produto 2 que sirve para pocas cosas</p>
+                <h6>$XXX.XX</h6>
+                <a href="#" class="btn btn-primary">Comprar!</a>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 3 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/item03.jpg" class="card-img-top" alt="Item numero tres">
+                <div class="card-body">
+                <h5 class="card-title">PRODUCTO 3</h5>
+                <p class="card-text">Produto 3 que sirve para algunas cosas</p>
+                <h6>$XXX.XX</h6>
+                <a href="#" class="btn btn-primary">Comprar!</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SEGUNDA SECCION -->
+        <div class="container w-80 mt-5 d-flex justify-content-around">
+            <!-- PRODUCTO 4 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/item04.jpg" class="card-img-top" alt="Item numero cuatro">
+                <div class="card-body">
+                <h5 class="card-title">PRODUCTO 4</h5>
+                <p class="card-text">Produto 4 que no sirve</p>
+                <h6>$XXX.XX</h6>
+                <a href="#" class="btn btn-primary">Comprar!</a>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 5 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/item05.jpg" class="card-img-top" alt="Item numero cinco">
+                <div class="card-body">
+                <h5 class="card-title">PRODUCTO 5</h5>
+                <p class="card-text">Produto 5 que a veces sirve</p>
+                <h6>$XXX.XX</h6>
+                <a href="#" class="btn btn-primary">Comprar!</a>
+                </div>
+            </div>
+
+            <!-- PRODUCTO 6 -->
+            <div class="card" style="width: 18rem;">
+                <img src="img/item06.jpg" class="card-img-top" alt="Item numero seis">
+                <div class="card-body">
+                <h5 class="card-title">PRODUCTO 6</h5>
+                <p class="card-text">Produto 6 que sirve para absolutamente todo</p>
+                <h6>$XXX.XX</h6>
+                <a href="#" class="btn btn-primary">Comprar!</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer class="colorNav footer">
+            <div class="d-flex justify-content-around colorNav">
+                <div class="p-2"><a class="colorTextNav" href="#">Twitter</a></div>
+                <div class="p-2 colorTextNav"><a class="colorTextNav" href="#">Instagram</a></div>
+                <div class="p-2 colorTextNav"><a class="colorTextNav" href="#">Facebook</a></div>
+            </div>
+        </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
